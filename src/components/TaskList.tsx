@@ -1,69 +1,88 @@
-import { useState } from 'react'
-
-import '../styles/tasklist.scss'
-
+import { FormEvent, useState } from 'react';
 import { FiTrash, FiCheckSquare } from 'react-icons/fi'
+import { toast } from 'react-toastify';
+import { Task } from '../types'
 
-interface Task {
-  id: number;
-  title: string;
-  isComplete: boolean;
-}
+import '../styles/tasklist.scss';
 
 export function TaskList() {
-  const [tasks, setTasks] = useState<Task[]>([]);
   const [newTaskTitle, setNewTaskTitle] = useState('');
-  
-  
-  function handleCreateNewTask() {
+  const [tasks, setTasks] = useState<Task[]>(() => {
+    const storagedCart = localStorage.getItem('@ToDo:tasks');
 
-    const data = {
-      id: Math.random(),
-      title: newTaskTitle,
-      isComplete: false
+    if (storagedCart) {
+      return JSON.parse(storagedCart);
     }
 
-    if(newTaskTitle)
-      setTasks([...tasks, {...data}]);
+    return [];
+  });
+
+
+  function handleCreateNewTask(event:FormEvent){
+    event.preventDefault();
+    
+    try {
+      if(!newTaskTitle){
+        alert('A descrição da tarefa esta vazia.');
+        return;
+      }
+      const lastItem = tasks[ tasks.length - 1 ];
+
+      const data = {
+        id: lastItem ? lastItem.id + 1 : 0,
+        title: newTaskTitle,
+        isComplete: false
+      }
+      const newTask = [...tasks, {...data}];
+      setTasks(newTask);
+      localStorage.setItem('@ToDo:tasks', JSON.stringify(newTask));        
 
       setNewTaskTitle('')
+      return toast.success('Tarefa adicionada');
+      
+    } catch{
+      toast.error('Erro ao adicionar nova tarefa');
+    }
   }
 
-  function handleToggleTaskCompletion(id: number) {
-
-    const taskChanged = tasks.map(task => task.id === id ? {
+  function handleToggleTaskCompletion(taskId: number){
+    const taskChanged = tasks.map(task => task.id === taskId ? {
       ...task,
       isComplete: !task.isComplete,
     }: task)
 
     setTasks(taskChanged); 
+    localStorage.setItem('@ToDo:tasks', JSON.stringify(taskChanged));
   }
 
-  function handleRemoveTask(id: number) {
-    const filterTask = tasks.filter(task => task.id !== id)
+  function handleRemoveTask(taskId: number){
+    const filterTask = tasks.filter(task => task.id !== taskId)
     setTasks(filterTask);
+    localStorage.setItem('@ToDo:tasks', JSON.stringify(filterTask));   
   }
+
 
   return (
     <section className="task-list container">
       <header>
         <h2>Minhas tasks</h2>
 
-        <div className="input-group">
+        <form className="input-group" onSubmit={handleCreateNewTask}>
           <input 
             type="text" 
-            placeholder="Adicionar novo todo" 
-            onChange={(e) => setNewTaskTitle(e.target.value)}
+            placeholder="Adicionar nova tarefa" 
+            onChange={(event) => setNewTaskTitle(event.target.value)}
             value={newTaskTitle}
           />
-          <button type="submit" data-testid="add-task-button" onClick={handleCreateNewTask}>
+          <button type="submit" data-testid="add-task-button">
             <FiCheckSquare size={16} color="#fff"/>
           </button>
-        </div>
+        </form>
       </header>
 
       <main>
         <ul>
+          {/* {[{  id: 1, title: 'teste',isComplete: false,}, {  id: 2, title: 'teste02',isComplete: true,}].map(task => ( */}
           {tasks.map(task => (
             <li key={task.id}>
               <div className={task.isComplete ? 'completed' : ''} data-testid="task" >
