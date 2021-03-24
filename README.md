@@ -24,7 +24,7 @@
 
 ## **💻 Projeto**
 <p style="font-weight: lighter;">
-Um projeto desenvolvido durante o <b>Bootcamp Ignite</b> da <b>Rocketseat</b>, o projeto "To Do" é um projeto basico de listagem de tarefaz que pode tanto ser utilizado em trabalho como com coisas do dia a dia, podendo criar tarefas novas confirmar tarefas comcluidas e exclui-las tambem.
+Um projeto desenvolvido durante o <b>Bootcamp Ignite</b> da <b>Rocketseat</b>, o projeto "To Do" é um projeto basico de listagem de tarefas que pode tanto ser utilizado em trabalho como com coisas do dia a dia, podendo criar tarefas novas confirmar tarefas comcluidas e exclui-las tambem.
  <br>
  <br>
  * <b>Acesse o Projeto Online<b>: https://todoawesome.vercel.app 
