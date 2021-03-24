@@ -1,46 +1,177 @@
-# Getting Started with Create React App
+<h1 align="center" style="color: #f1f1f1; font-size: 4rem; font-weight: bold">To.Do</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+![GitHub][repository_license_badge] ![React_Badge][web_react_badge] ![Types][typescript] ![Next][next]
+<br>
 
-In the project directory, you can run:
+<p align="center">
+ <a href="#-projeto"><strong/><h3/>Projeto</a> •
+ <a href="#-layout">Layout</a> •
+ <a href="#-ecnologias">Tecnologias</a> •
+ <a href="#-como-executar-o-projeto">Executando</a> •
+ <a href="#-referencias">Referências</a> •
+ <a href="#-author">Autor</a> 
+</p>
 
-### `yarn start`
+<p align="center">
+  <img alt="moveit" src=".github/todo.png" width="100%">
+</p>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+## **💻 Projeto**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Um projeto desenvolvido durante o **Bootcamp Ignite** da **Rocketseat**, o projeto "To Do" é um projeto basico de listagem de tarefaz que pode tanto ser utilizado em trabalho como com coisas do dia a dia, podendo criar tarefas novas confirmar tarefas comcluidas e exclui-las tambem.
 
-### `yarn build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **🔖 Layout**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### **Web**
+<p align="center">
+  <img alt="telasWeb" src=".github/screen01.png" width="100%">
+</p>
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## **:computer: Tecnologias**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+ #### **Website** ([React][react])
+ 
+  - **[Typescript][typescript]**
+   
+> \* Veja o arquivo <kbd>[package.json](./package.json)</kbd>
 
-## Learn More
+ #### **Utilitários**
+ 
+  - Editor: **[Visual Studio Code][vscode]** 
+ - Markdown: **[StackEdit][stackedit]**, **<kbd>[Markdown Emoji][markdown_emoji]</kbd>**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##  **🚀 Como executar o projeto**
+
+### Configurações Iniciais
+
+Primeiro, você precisa ter o <kbd>[NodeJS](https://nodejs.org/en/download/)</kbd> instalado na sua máquina. 
+
+Se você estiver utilizando o **Linux**, você pode optar por instalar o **Node** através do gerênciador de versões <kbd>[asdf]</kbd> para facilitar o processo de mudança da versão do **Node**, quando for necessário.
+
+Você pode optar também por utilizar o **yarn** no lugar do **npm**. Você pode instalar clicando nesse <kbd>[link][yarn]</kbd>, ou através do <kbd>[asdf]</kbd>.
+
+Após ter o **Node** instalado, instale as dependências do **React** de forma global, utilizando os comandos:
+
+Instale as dependências contidas nos arquivos `package.json` que se encontram na raíz do repositório. Para instalar as dependências, basta abrir o terminal no diretório e digitar o comando:
+
+```sh
+$ npm install
+
+# ou
+$ yarn
+```
+
+> Veja a parte de **scripts {}** do arquivo <kbd>[package.json](./package.json)</kbd> para saber quais scripts estão disponíveis.
+
+
+### Executando o WebSite
+
+```sh
+# Executando o website no modo de desenvolvimento:
+$ npm run start
+
+    OU
+
+# Executando o website no modo de desenvolvimento:
+$ yarn start
+```
+> Se o browser não abrir automaticamente, acesse: http://localhost:3000.
+
+---
+
+## **:books: Referências**
+
+- [Blog Rocketseat](https://blog.rocketseat.com.br/)
+- [ReactJS](https://reactjs.org/docs/getting-started.html) | [ReactJS pt-BR](https://pt-br.reactjs.org/docs/getting-started.html)
+- [Node](https://nodejs.org/en/)
+
+## **👨‍🚀 Autor**
+
+<a href="https://github.com/jairodoni">
+ <img style="border-radius: 50%;" src="https://github.com/jairodoni.png" width="100px;" alt="Jairo Doni Prudente Junior"/>
+ <br />
+ <sub><b>Jairo Doni Prudente Junior</b></sub></a>
+ <br />
+
+👋 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jairodoni/)](https://www.linkedin.com/in/jairodoni/)
+[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:jairo.doni97@gmail.com)](mailto:jairo.doni97@gmail.com)
+
+## **:memo: Licença**
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+
+<!-- Website Links -->
+
+[rocketseat_site]: https://rocketseat.com.br/
+
+<!-- Badges -->
+
+[repository_license_badge]: https://img.shields.io/github/license/JairoDoni/NLW-1.0
+
+[web_react_badge]: https://img.shields.io/badge/web-react-blue
+
+[typescript]: https://img.shields.io/badge/types-Typescript-blue
+
+[next]: https://img.shields.io/badge/ReactJS-Next.js-lightgrey
+
+<!-- Techs -->
+
+[react]: https://reactjs.org/
+
+[node]: https://nodejs.org/en/
+
+[vscode]: https://code.visualstudio.com/
+
+[react_native]: http://www.reactnative.com/
+
+[stackedit]: https://stackedit.io
+
+[vscode_sqlite_extension]: https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite
+
+[markdown_emoji]: https://gist.github.com/rxaviers/7360908
+
+[commitlint]: https://github.com/conventional-changelog/commitlint
+
+[feather_icons]: https://feathericons.com/
+
+[next]: https://nextjs.org/
+
+[typescript]: https://www.typescriptlang.org/
+
+[axios]: https://github.com/axios/axios
+
+[dotenv]: https://github.com/motdotla/dotenv
+
+[expo]: https://expo.io/
+
+[expo_google_fonts]: https://github.com/expo/google-fonts
+
+[react_navigation]: https://reactnavigation.org/
+
+[expo_constants]: https://docs.expo.io/versions/latest/sdk/constants/
+
+[supertest]: https://github.com/visionmedia/supertest
+
+[cross_env]: https://github.com/kentcdodds/cross-env
+
+[asdf]: https://github.com/asdf-vm/asdf
+
+[yarn]: https://classic.yarnpkg.com/en/docs/install/#debian-stable
