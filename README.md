@@ -24,7 +24,7 @@
 
 ## **💻 Projeto**
 
-Um projeto desenvolvido durante o **Bootcamp Ignite** da **Rocketseat**, o projeto "To Do" é um projeto basico de listagem de tarefaz que pode tanto ser utilizado em trabalho como com coisas do dia a dia, podendo criar tarefas novas confirmar tarefas comcluidas e exclui-las tambem.
+Um projeto desenvolvido durante o **Bootcamp Ignite** da **Rocketseat**, o projeto "To Do" é um projeto basico de listagem de tarefas que pode tanto ser utilizado em trabalho como com coisas do dia a dia, podendo criar tarefas novas confirmar tarefas concluidas e exclui-las tambem.
 
 ---
 
