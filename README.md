@@ -1,4 +1,6 @@
-<h1 align="center" style="color: #f1f1f1; font-size: 4rem; font-weight: bold">To.Do</h1>
+<h1 align="center">
+    <img alt="todo" title="todo" src=".github/logo.svg" width="300px" />
+</h1>
 
 <div align="center">
 
