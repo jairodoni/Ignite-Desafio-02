@@ -8,13 +8,13 @@
 <br>
 
 <p align="center">
- <a href="#-Preview">Preview</a> &nbsp;&nbsp;|&nbsp;&nbsp;
- <a href="#-projeto">Projeto</a> &nbsp;&nbsp;|&nbsp;&nbsp;
- <a href="#-layout">Layout</a> &nbsp;&nbsp;|&nbsp;&nbsp;
- <a href="#-tecnologias">Tecnologias</a> &nbsp;&nbsp;|&nbsp;&nbsp;
- <a href="#-como-executar-o-projeto">Executando</a> &nbsp;&nbsp;|&nbsp;&nbsp;
- <a href="#-referências">Referências</a> &nbsp;&nbsp;|&nbsp;&nbsp;
- <a href="#-autor">Autor</a> 
+ ** <a href="#-Preview">Preview</a> &nbsp;&nbsp;|&nbsp;&nbsp; **
+ ** <a href="#-projeto">Projeto</a> &nbsp;&nbsp;|&nbsp;&nbsp; **
+ ** <a href="#-layout">Layout</a> &nbsp;&nbsp;|&nbsp;&nbsp; **
+ ** <a href="#-tecnologias">Tecnologias</a> &nbsp;&nbsp;|&nbsp;&nbsp; **
+ ** <a href="#-como-executar-o-projeto">Executando</a> &nbsp;&nbsp;|&nbsp;&nbsp; **
+ ** <a href="#-referências">Referências</a> &nbsp;&nbsp;|&nbsp;&nbsp; **
+ ** <a href="#-autor">Autor</a> **
 </p>
 
 <p align="center">
@@ -28,12 +28,7 @@
 ---
 
 ## **💻 Projeto**
-<p style="font-weight: lighter;">
 Um projeto desenvolvido durante o <b>Bootcamp Ignite</b> da <b>Rocketseat</b>, o projeto "To Do" é um projeto basico de listagem de tarefas que pode tanto ser utilizado em trabalho como com coisas do dia a dia, podendo criar tarefas novas confirmar tarefas concluidas e exclui-las tambem.
- <br>
- <br>
- * <b>Acesse o Projeto Online<b>: https://todoawesome.vercel.app 
-</p>
 
 ---
 
