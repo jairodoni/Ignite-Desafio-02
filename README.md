@@ -8,13 +8,30 @@
 <br>
 
 <p align="center">
- ** <a href="#-Preview">Preview</a> &nbsp;&nbsp;|&nbsp;&nbsp; **
- ** <a href="#-projeto">Projeto</a> &nbsp;&nbsp;|&nbsp;&nbsp; **
- ** <a href="#-layout">Layout</a> &nbsp;&nbsp;|&nbsp;&nbsp; **
- ** <a href="#-tecnologias">Tecnologias</a> &nbsp;&nbsp;|&nbsp;&nbsp; **
- ** <a href="#-como-executar-o-projeto">Executando</a> &nbsp;&nbsp;|&nbsp;&nbsp; **
- ** <a href="#-referências">Referências</a> &nbsp;&nbsp;|&nbsp;&nbsp; **
- ** <a href="#-autor">Autor</a> **
+  <strong>
+      <a href="#-Preview">Preview</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+  </strong>
+  <strong>
+      <a href="#-projeto">Projeto</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+  </strong>
+  <strong>
+      <a href="#-layout">Layout</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+  </strong>
+  <strong>
+      <a href="#-tecnologias">Tecnologias</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+  </strong>
+  <strong>
+      <a href="#-tecnologias">Tecnologias</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+  </strong>
+  <strong>
+      <a href="#-como-executar-o-projeto">Executando</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+  </strong>
+  <strong>
+      <a href="#-referências">Referências</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+  </strong>
+  <strong>
+      <a href="#-autor">Autor</a> 
+  </strong>
 </p>
 
 <p align="center">
