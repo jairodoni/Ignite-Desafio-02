@@ -8,11 +8,12 @@
 <br>
 
 <p align="center">
- <a href="#-projeto"><strong/><h3/>Projeto</a> •
- <a href="#-layout">Layout</a> •
- <a href="#-tecnologias">Tecnologias</a> •
- <a href="#-como-executar-o-projeto">Executando</a> •
- <a href="#-referências">Referências</a> •
+ <a href="#-Preview"><strong/><h3/>Projeto</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+ <a href="#-projeto"><strong/><h3/>Projeto</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+ <a href="#-layout">Layout</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+ <a href="#-tecnologias">Tecnologias</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+ <a href="#-como-executar-o-projeto">Executando</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+ <a href="#-referências">Referências</a> &nbsp;&nbsp;|&nbsp;&nbsp;
  <a href="#-autor">Autor</a> 
 </p>
 
@@ -22,6 +23,10 @@
 </div>
 
 
+---
+
+## **✨ Preview**
+#### Sistema Online: https://todoawesome.vercel.app 
 ---
 
 ## **💻 Projeto**
