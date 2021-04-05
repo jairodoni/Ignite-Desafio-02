@@ -45,7 +45,7 @@ Um projeto desenvolvido durante o <b>Bootcamp Ignite</b> da <b>Rocketseat</b>, o
 
 ---
 
-## **:computer: Tecnologias**
+## **💻 Tecnologias**
 
 
  #### **Website** ([React][react])
@@ -101,7 +101,7 @@ $ yarn dev
 
 ---
 
-## **:books: Referências**
+## **📚 Referências**
 
 - [Blog Rocketseat](https://blog.rocketseat.com.br/)
 - [ReactJS](https://reactjs.org/docs/getting-started.html) | [ReactJS pt-BR](https://pt-br.reactjs.org/docs/getting-started.html)
