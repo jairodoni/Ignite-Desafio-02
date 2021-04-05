@@ -2,6 +2,8 @@
     <img alt="todo" title="todo" src=".github/logo.svg" width="300px" />
 </h1>
 
+<div align="center">
+
 ![GitHub][repository_license_badge] ![React_Badge][web_react_badge] ![Types][typescript] ![Next][next]
 <br>
 
