@@ -4,7 +4,11 @@
 
 <div align="center">
 
-![GitHub][repository_license_badge] ![React_Badge][web_react_badge] ![Types][typescript] ![Next][next]
+   [![Licence](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE.md) 
+   <img alt="TypeScript" src="https://img.shields.io/badge/typescript-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white"/> 
+  <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> 
+  <img alt="SASS" src="https://img.shields.io/badge/SASS-hotpink.svg?&style=for-the-badge&logo=SASS&logoColor=white"/>
+    
 <br>
 
 <p align="center">
