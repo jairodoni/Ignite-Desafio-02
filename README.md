@@ -71,6 +71,7 @@ Um projeto desenvolvido durante o <b>Bootcamp Ignite</b> da <b>Rocketseat</b>, o
  
   - **[Typescript][typescript]**
   - **[Webpack][webpack]**
+  - **[Sass][sass]**
    
 > \* Veja o arquivo <kbd>[package.json](./package.json)</kbd>
 
@@ -186,7 +187,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 [dotenv]: https://github.com/motdotla/dotenv
 
-[expo]: https://expo.io/
+[sass]: https://sass-lang.com
 
 [expo_google_fonts]: https://github.com/expo/google-fonts
 
